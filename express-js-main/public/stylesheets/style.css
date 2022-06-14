@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.books {
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    
+}
+.totaly{
+    display: flex;
+    flex-direction: column;
+    font-size: 14.5px;
+    font-weight: 700;
+}
+.totaly span{
+    font-size: 14.5px;
+    font-weight: 400;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(36, 36, 216);
+    position: absolute;
+    top: 4px;
+    right: 13px;
+}

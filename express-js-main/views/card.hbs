@@ -1,0 +1,23 @@
+<table>
+  <tr>
+    <th>Book name</th>
+    <th>Price</th>
+    <th>Count</th> 
+  </tr>
+   {{#each card.books}}
+    <tr>
+     <td>{{name}}</td>
+     <td class="price" >{{price}}</td>
+     <td>{{count}}</td>
+    </tr>
+   {{/each}}
+   <tr>
+      <td><p class="totaly">Totally</p></td>
+      <td><span  class="price">{{card.price}}</span></td>
+      <td>{{card.count}}</td>
+   </tr>
+
+
+</table>
+
+<script src="/scripts/script.js"></script>
